@@ -1,0 +1,35 @@
+body {background-image: url('background.png');}
+.p-darkblue {font-size:20px; color: darkblue; font-family:sans-serif; }
+.p-darkred {font-size:20px; color: darkred; font-family:sans-serif; }
+.p-cyan { font-size:30px; color: cyan; font-family:sans-serif;}
+.p-blue {font-size:20px; color: blue; font-family:sans-serif;}
+.t-text { text-align: left;}
+.i-danger { width: 283px;
+            height: 409px;
+            transition:width .25s;
+            transition:height .25s;
+            float: left;
+        }
+.t-text {float: right; color: #a00000;}
+.t-text2 span {
+    color:  red;
+}
+.s-page { display:flex;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-top: 25px;}
+
+nav { text-align:right;
+    border-bottom:2px solid blue;
+    padding-bottom: 8px;
+} 
+
+h1 { text-align:center; }
+
+container{
+    display:flex;
+
+}
+img{
+    max-width:20%;
+}
